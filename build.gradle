@@ -26,4 +26,10 @@ jar {
     }
 }
 defaultTasks 'assemble'
+dependencies {
+    compile 'com.vk.api:sdk:0.5.12'
+}
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version: '1.7.22'
+}
 
